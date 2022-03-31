@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-function Header() {
+function Header(): JSX.Element {
   return (
     <header className="mx-auto flex max-w-7xl justify-between p-5">
       <div className="flex items-center space-x-5">
