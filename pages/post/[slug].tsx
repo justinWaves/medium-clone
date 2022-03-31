@@ -62,6 +62,26 @@ function Post({ post }: Props) {
           />
         </div>
       </article>
+
+      <hr className="my-5 mx-auto max-w-lg border border-yellow-500" />
+
+      <form className="mx-auto mb-10 flex max-w-2xl flex-col p-5 ">
+        <h3 className="text-sm text-yellow-500">Enjoyed this article?</h3>
+        <h4 className="text-3xl font-bold">Leave a comment below!</h4>
+        <hr className="mt-2 py-3" />
+        <label>
+          <span>Name</span>
+          <input placeholder="John Appleseed" type="text" />
+        </label>
+        <label>
+          <span>Email</span>
+          <input placeholder="jappleseed@gmail.com" type="text" />
+        </label>
+        <label>
+          <span>Comment</span>
+          <textarea placeholder="John Appleseed" rows={8} />
+        </label>
+      </form>
     </main>
   )
 }
